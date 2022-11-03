@@ -15,7 +15,7 @@ function App() {
       id:2,
       text: 'Meeting at School',
       day: 'Feb 6th at 1:30pm',
-      reminder: true,
+      reminder: false,
   
     },
     {
@@ -29,7 +29,7 @@ function App() {
       id:4,
       text: 'Clothes Shopping',
       day: 'Feb 6th at 1:30pm',
-      reminder: false,
+      reminder: true,
   
     }
 ]);
