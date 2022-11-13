@@ -4,6 +4,7 @@ const AddTask = ({onAdd}) => {
     const [text, setText] = useState('')
     const [day, setDay] = useState('')
     const [reminder, setReminder] = useState(false)
+    const [image, setImage] = useState('')
 
     const onSubmit = (e) => {
         e.preventDefault()
@@ -13,10 +14,11 @@ const AddTask = ({onAdd}) => {
             return
         }
 
-        onAdd({ text, day, reminder })
+        onAdd({ text, day, reminder, image })
 
         setText('')
         setDay('')
+        setImage('')
         setReminder(false)
     }
 
@@ -31,6 +33,12 @@ const AddTask = ({onAdd}) => {
         <label htmlFor="">Day & Time</label>
         <input type="text" placeholder="Add Day & Time" value={day} onChange={(e) => setDay(e.target.value)} />
       </div>
+
+      <div className="form-control">
+        <label htmlFor="">Image</label>
+        <input type="url" placeholder="Add image link" value={image} onChange={(e) => setImage(e.target.value)} />
+      </div>
+
       <div className="form-control form-control-check">
         <label htmlFor="">Set Reminder</label>
         <input type="checkbox" checked={reminder} value={reminder} onChange={(e) => setReminder(e.currentTarget.checked)} />
