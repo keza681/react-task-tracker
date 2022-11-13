@@ -100,7 +100,7 @@ function App() {
       )
   }
 
-
+// TO RUN THE BACKEND:: npm run server
   return (
     <Router>
       <div className='container'>

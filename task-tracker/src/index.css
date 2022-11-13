@@ -41,7 +41,7 @@ body {
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url('imgs/annie-spratt-yI3weKNBRTc-unsplash.jpg');
+  background-image: url('imgs/max-mckinnon-c9OCWLka764-unsplash.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 250vh 100vh;
@@ -102,7 +102,7 @@ body {
 }
 
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 5px solid blue;
 }
 
 .task h3 {

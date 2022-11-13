@@ -23,6 +23,18 @@
       "day": "asdfghjk",
       "reminder": true,
       "id": 5
+    },
+    {
+      "text": "adsfhgjhjk",
+      "day": "asgdfh",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "Waouh ",
+      "day": "I'm so happyyy",
+      "reminder": false,
+      "id": 7
     }
   ]
 }
